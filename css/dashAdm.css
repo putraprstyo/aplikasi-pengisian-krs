@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191970;
+    margin: -10px -10px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar .brand{
+    margin-right: 30em;
+    margin-left: 5em;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.navbar .link a:hover {
+    background-color: #ff3333;
+}
+
+.matakuliah table{
+    margin-top: 2em;
+}
+
+.matakuliah table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 10px;
+}
+
+/* input MK */
+/* .mk form{
+    margin-top: 2em;
+}
+
+.mk form input{
+    margin-bottom: 1em;
+} */
+form{
+    margin-top: 3em;
+}
+form input{
+    padding: 5px;
+    font-size: 20px;
+}
+form button{
+    margin-top: 1em;
+    margin-left: 12em;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+form button:hover{
+    background-color: red;
+}
+table, th, td {
+    font-family: 'Roboto';
+        border: solid black;
+    padding: 5px;
+}
+.btn {
+    margin-left: 10em;
+    background-color: #191970;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-edit{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-delete{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-edit:hover{
+    background-color: #ff3333;
+}
+
+.btn-delete:hover{
+    background-color: #272983;
+}
+
+.btn:hover{
+    background-color: #ff3333;
+}

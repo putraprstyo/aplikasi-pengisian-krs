@@ -1,0 +1,60 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191970;
+    margin: -10px -10px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar .brand{
+    margin-right: 30em;
+    margin-left: 5em;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.navbar .link a:hover {
+    background-color: #ff3333;
+}
+
+.profile img{
+    margin-top: 3em;
+    margin-left: 5em;
+    height: 200px;
+    float: left;
+}
+
+.btn {
+    background-color: #191970;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #ff3333;
+}
+
+.data-diri{
+    float: right;
+    margin-right: 45em;
+    margin-top: 3em;
+}
+
+.data-diri input{
+    margin-bottom: 1em;
+}
